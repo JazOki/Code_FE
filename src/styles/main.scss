@@ -1,0 +1,68 @@
+
+/* Variables */
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos de la aplicación */
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Estilos de la lista de correos electrónicos */
+.email-list {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border-right: 1px solid #ccc;
+}
+
+.email-list h2 {
+  color: $primary-color;
+  margin-bottom: 20px;
+}
+
+.email-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.email-list li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.email-list li.read {
+  background-color: #f2f2f2;
+}
+
+.email-list li.unread {
+  font-weight: bold;
+}
+
+/* Estilos del detalle del correo electrónico */
+.email-detail {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+}
+
+.email-detail h2 {
+  color: $primary-color;
+  margin-bottom: 20px;
+}
+
+.email-detail button {
+  margin-right: 10px;
+}
+
+/* Otros estilos específicos de tu aplicación */
+// ...
